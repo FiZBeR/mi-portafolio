@@ -98,7 +98,7 @@
     <!-- Navigation -->
     <header class="fixed top-0 w-full z-50 px-6 py-6 flex justify-center">
       <nav
-        class="bg-white/80 backdrop-blur-md border border-border-light rounded-full pl-6 pr-2 py-2 flex items-center justify-between shadow-sm max-w-[500px] w-full mx-auto mr-[268px] dark:bg-[#161616]/80 dark:border-white/5"
+        class="bg-white/80 backdrop-blur-md border border-border-light rounded-full pl-6 pr-2 py-2 flex flex-wrap items-center justify-between gap-2 shadow-sm max-w-[550px] w-full mx-auto  dark:bg-[#161616]/80 dark:border-white/5"
       >
         <a
           class="font-bold text-lg tracking-tight flex items-center gap-2 dark:text-white"
@@ -109,7 +109,7 @@
           ></div>
           Cristian.dev
         </a>
-        <div class="flex items-center gap-1">
+        <div class="hidden sm:flex items-center gap-1">
           <a
             class="px-4 py-2 text-sm font-medium hover:bg-primary hover:text-white rounded-full transition-colors text-text-main dark:text-white dark:hover:bg-accent dark:hover:text-black"
             href="#experience"
@@ -127,13 +127,13 @@
             Contacto
           </a>
         </div>
+        <button
+          class="darkmode w-8 h-8 bg-white/80 backdrop-blur-md border-border-light rounded-full flex justify-center hover:bg-black hover:text-white"
+          id="toggel-dark"
+        >
+          <span class="material-symbols-outlined mt-1"> dark_mode </span>
+        </button>
       </nav>
-      <button
-        class="darkmode w-14 h-14 bg-white/80 backdrop-blur-md border-border-light rounded-full mr-10 hover:bg-black hover:text-white"
-        id="toggel-dark"
-      >
-        <span class="material-symbols-outlined mt-1"> dark_mode </span>
-      </button>
     </header>
     <!-- Main Content -->
     <main
@@ -496,11 +496,12 @@
                 >check_circle</span
               >
               <span
-                >Desarrollé componentes de backend con <span class="relative bg-gradient-to-r from-primary to-primary
-                bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                transition-all duration-300 ease-out
-                group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent">Node.js y Express</span> para
-                una plataforma de comercio electrónico.</span
+                >Desarrollé componentes de backend con
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >Node.js y Express</span
+                >
+                para una plataforma de comercio electrónico.</span
               >
             </li>
             <li class="flex items-start gap-3 text-gray-600 dark:text-gray-300">
@@ -508,14 +509,16 @@
                 >check_circle</span
               >
               <span
-                >Apoyé en la implementación de funcionalidades de <span class="relative bg-gradient-to-r from-primary to-primary
-                bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                transition-all duration-300 ease-out
-                group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent">autenticación
-                  de usuarios</span> y <span class="relative bg-gradient-to-r from-primary to-primary
-                  bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                  transition-all duration-300 ease-out
-                  group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent ">gestión de sesiones.</span></span
+                >Apoyé en la implementación de funcionalidades de
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >autenticación de usuarios</span
+                >
+                y
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >gestión de sesiones.</span
+                ></span
               >
             </li>
             <li class="flex items-start gap-3 text-gray-600 dark:text-gray-300">
@@ -523,11 +526,12 @@
                 >check_circle</span
               >
               <span
-                >Desarrollé el <span class="relative bg-gradient-to-r from-primary to-primary
-                bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                transition-all duration-300 ease-out
-                group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent">panel administrativo</span> básico para gestión de
-                contenido (CRUD).</span
+                >Desarrollé el
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >panel administrativo</span
+                >
+                básico para gestión de contenido (CRUD).</span
               >
             </li>
             <li class="flex items-start gap-3 text-gray-600 dark:text-gray-300">
@@ -535,18 +539,21 @@
                 >check_circle</span
               >
               <span
-                >Desarrollé y mantuve la interfaz de usuario utilizando <span class="relative bg-gradient-to-r from-primary to-primary
-                bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                transition-all duration-300 ease-out
-                group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent">React</span>,
-                creando <span class="relative bg-gradient-to-r from-primary to-primary
-                bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                transition-all duration-300 ease-out
-                group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent">componentes reutilizables</span> y enfocándome en una
-                <span class="relative bg-gradient-to-r from-primary to-primary
-                bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                transition-all duration-300 ease-out
-                group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent">experiencia de usuario</span> clara, consistente y responsive.</span
+                >Desarrollé y mantuve la interfaz de usuario utilizando
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >React</span
+                >, creando
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >componentes reutilizables</span
+                >
+                y enfocándome en una
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >experiencia de usuario</span
+                >
+                clara, consistente y responsive.</span
               >
             </li>
           </ul>
@@ -581,11 +588,11 @@
                 >check_circle</span
               >
               <span
-                >Desarrollé add-ins personalizados para SolidWorks <span class="relative bg-gradient-to-r from-primary to-primary
-                bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                transition-all duration-300 ease-out
-                group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent">automatizando
-                procesos de diseño.</span></span
+                >Desarrollé add-ins personalizados para SolidWorks
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >automatizando procesos de diseño.</span
+                ></span
               >
             </li>
             <li class="flex items-start gap-3 text-gray-600 dark:text-gray-300">
@@ -593,11 +600,11 @@
                 >check_circle</span
               >
               <span
-                >Programé extensiones en C++ integrando la <span class="relative bg-gradient-to-r from-primary to-primary
-                bg-[length:0%_2px] bg-no-repeat bg-left-bottom
-                transition-all duration-300 ease-out
-                group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent">API de
-                  SolidWorks.</span></span
+                >Programé extensiones en C++ integrando la
+                <span
+                  class="relative bg-gradient-to-r from-primary to-primary bg-[length:0%_2px] bg-no-repeat bg-left-bottom transition-all duration-300 ease-out group-hover:bg-[length:100%_2px] dark:from-accent dark:to-accent"
+                  >API de SolidWorks.</span
+                ></span
               >
             </li>
           </ul>
@@ -633,7 +640,8 @@
             <div>
               <div class="flex justify-between items-start mb-4">
                 <div class="p-3 bg-primary/10 rounded-full text-primary">
-                  <span class="material-symbols-outlined text-primary dark:group-hover:text-accent"
+                  <span
+                    class="material-symbols-outlined text-primary dark:group-hover:text-accent"
                     >shopping_bag</span
                   >
                 </div>
@@ -699,7 +707,8 @@
           ></div>
           <div class="p-6 flex flex-col flex-1">
             <div class="flex items-center gap-3 mb-3">
-              <span class="material-symbols-outlined text-primary dark:group-hover:text-accent"
+              <span
+                class="material-symbols-outlined text-primary dark:group-hover:text-accent"
                 >chef_hat</span
               >
               <h3
@@ -757,7 +766,10 @@
           ></div>
           <div class="p-6 flex flex-col flex-1">
             <div class="flex items-center gap-3 mb-3">
-              <span class="material-symbols-outlined text-primary dark:group-hover:text-accent">cloud</span>
+              <span
+                class="material-symbols-outlined text-primary dark:group-hover:text-accent"
+                >cloud</span
+              >
               <h3
                 class="text-xl font-bold group-hover:text-primary transition-colors dark:text-white dark:group-hover:text-accent"
               >
@@ -868,7 +880,7 @@
       class="flex-grow flex flex-col items-center justify-center px-4 py-10 w-full"
     >
       <div
-        class="bento-card bg-white dark:bg-card w-full max-w-[640px] rounded-[3rem] sm:p-14 shadow-soft border border-white/50 dark:border-white/5 relative overflow-hidden group"
+        class="bento-card bg-white dark:bg-card w-full max-w-[640px] rounded-[3rem] p-8 sm:p-14 shadow-soft border border-white/50 dark:border-white/5 relative overflow-hidden group"
       >
         <div
           class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-1 bg-accent-violet/20 blur-xl"
@@ -943,13 +955,13 @@
                 class="w-full p-6 rounded-[2rem] border-gray-300 dark:border-white/10 bg-gray-50/50 dark:bg-white/5 focus:ring-2 focus:ring-accent-violet/50 focus:border-accent-violet transition-all outline-none resize-none dark:text-white"
                 id="message"
                 placeholder="Hablame sobre tu proyecto..."
-                rows="3"
+                rows="4"
                 name="message"
               ></textarea>
             </div>
-            <div class="flex flex-col sm:flex-row w-full gap-4 pt-2">
+            <div class="flex flex-col sm:flex-row w-full gap-4 pt-6">
               <button
-                class="group/btn relative flex items-center justify-center gap-3 flex-[2] h-14 bg-primary text-white rounded-full font-bold text-base transition-all hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(124,58,237,0.3)] active:scale-95"
+                class="group/btn relative flex items-center justify-center gap-3 flex-[2] h-14 bg-primary text-white rounded-full font-bold text-base transition-all hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(124,58,237,0.3)] active:scale-95 leading-none"
                 type="submit"
               >
                 <span>Enviar</span>
@@ -959,7 +971,7 @@
                 >
               </button>
               <a
-                class="group/btn relative flex items-center justify-center gap-3 flex-1 h-14 bg-accent text-black rounded-full font-bold text-base transition-all hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(19,236,91,0.3)] active:scale-95"
+                class="group/btn relative flex items-center justify-center gap-3 flex-1 h-14 bg-accent text-black rounded-full font-bold text-base transition-all hover:scale-[1.02] hover:shadow-[0_0_20px_rgba(19,236,91,0.3)] active:scale-95 leading-none"
                 type="button"
                 href="mailto:cristiancv2000@hotmail.com?subject=Contacto%20Portafolio&body=Hola%20Cristian,%20vi%20tu%20portafolio"
                 target="_blank"
