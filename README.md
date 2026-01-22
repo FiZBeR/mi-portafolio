@@ -38,8 +38,7 @@ El portafolio reúne proyectos personales donde aplico buenas prácticas de UI/U
 ├── public/
 │   └── assets/        # Imágenes, íconos y recursos estáticos
 ├── src/
-│   ├── scripts/       # Lógica en JavaScript
-│   └── styles/        # Estilos adicionales (si aplica)
+│   ├── scripts/       # Lógica en JavaScript       
 ├── index.html
 ├── tailwind.config.js
 ├── vite.config.js
